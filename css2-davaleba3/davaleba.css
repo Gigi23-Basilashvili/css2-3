@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#divheader {
+    width: 1200px;
+    padding: 12px 24px;
+    margin-left: 689px;
+}
+ #divabout {
+    display: inline-block;
+    margin-left: 250px;
+    vertical-align: top;
+    margin-top: 5px;
+ }
+ #abouttext {
+    font-size: 18px;  
+ }
+ #offerdiv {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    margin-top: 5px;
+ }
+ #offertext {
+    font-size: 18px;
+ }
+ #contactdiv {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    margin-top: 5px;
+ }
+ #contacttext {
+    font-size: 18px;
+    color: #8E26C0 ;
+ }
+ #helpdiv {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+ }
+ #texthelp {
+    font-size: 18px;
+ }
+ #contactbtn {
+    margin-left: 200px;
+    vertical-align: top;
+    margin-top: 5px;
+    display: inline-block; 
+ }
+ #buttoncontact {
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: solid 2px #8E26C0;
+    color: #8E26C0;
+ }
+ /* content */
+ #divmain {
+    margin: 0 auto;
+    margin-top: 214px;
+    display: inline-block;
+ }
+ #divimg {
+    margin-left: 350px;
+    display: inline-block;
+ }
+ #divcontent {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 105px;
+    width: 750px;
+    /* margin-left: 230px; */
+ }
+ #headfirst {
+    font-size: 40px;
+    margin-left: 230px;
+ }
+ #textcontent {
+    display: inline-block;
+    
+ }
+ #divcontent p {
+    font-size: 20px; 
+    margin-left: 45px;
+     color: #535862;
+ }
+ #size {
+    height: 81px;
+    width: 644px;
+ }
+ #contentlist {
+    margin-left: 65px;
+ }
+ #listnumber {
+    font-size: 24px;
+    padding-top: 15px;
+ }
+
+#listnumber li{
+    padding-top: 10px;
+}
+/* contact */
+ #contactsection {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+ }
+ #headsecond {
+    font-size: 56px;
+ }
+  #sectiontext {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 905px;
+    height: 60px;
+  }
+  #sectiontext p  {
+    color: #535862;
+    font-size: 20px;
+
+  }
+  #info {
+    float: left;
+    margin-left: 75px;
+    margin-top: 30px;
+  }
+ #feedback {
+    text-align: center;
+    width: 1221px;
+    display: inline-block;
+ }
+ #adress h5 {
+    /* display: inline-block; */
+    align-items: center;
+    vertical-align: top;
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: start;
+ }
+ #adress p {
+    /* display: inline-block; */
+    vertical-align: bottom  ;
+    margin-left: 15px;
+    margin-top: 5px;
+    color: #6D5F8B;
+ }
+#test {
+    display: inline-block;
+}
+ #infomail {
+    float: left;
+    margin-top: 30px;
+    display: inline-block;
+    
+
+ }
+ #infomail ul {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+    list-style: none;
+    vertical-align: top;
+    text-align: start;
+ }
+ #infomail li {
+    color: #6D5F8B;
+ }
+ #infomail li :nth-child(1) {
+    color: black;
+ }
+ #infomail img {
+    padding-top: 8px;
+ }
+ #infophone {
+    text-align: start;
+ }
+ #infophone img {
+    margin-top: 30px;
+    margin-left: 5px;
+ }
+ #infophone ul {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+    list-style: none;
+    text-align: start;
+ }
+ #child{
+    color:  #6D5F8B ;
+ }
+
+ /*  */
+
+ #messageBox{
+    margin-top: 20px;
+    width: 680px;
+    text-align: start;
+    margin-left: 30px;
+    display: inline-block;
+ }
+ #messageBox h1 {
+    text-transform: capitalize;
+    color: #1B003D;
+    font-size: 32px;
+ }
+ #something{
+    display: block;
+ }
+
+ #messageName{
+    margin-top: 30px;
+ }
+ 
+ #messageName label {
+    font-size: 14px;
+    color: #1B003D;
+    margin-bottom: 15px;
+ }
+ #messageName input {
+    border: solid 2px #6D5F8B;
+    border-radius: 12px;
+    padding:12px;
+    width: 100%;
+ }
+
+ #messageEmail {
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ #messageEmail label {
+    font-size: 14px;
+    color: #1B003D;
+    margin-bottom: 15px;
+ }
+ #messageEmail input {
+    border: solid 2px #6D5F8B;
+    border-radius: 12px;
+    padding:12px;
+    width: 100%;
+ }
+ #messageFeed input {
+    margin-top: 15px;
+    border: solid 2px #6D5F8B;
+    border-radius: 12px;
+    padding-bottom: 105px;
+    padding-left: 15px;
+    padding-top: 20px;
+    width: 100%;
+ }
+ /*  */
+ #sendbutton {
+    float: right;
+    margin-top: 24px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #8E26C0;
+    color: white;
+    border: 0;
+ }
+ #footerlistone {
+    margin-left: 350px;
+    margin-top: 227px;
+    display: inline-block;
+ }
+ footer {
+    background: #53389E;
+    margin-top: 70px;
+ }
+ #footerlistone li {
+    list-style: none;
+    color: white;
+    padding-top: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+ }
+ #footerlistone ul {
+    padding-top: 49px;
+ }
+ #firstlist span{
+    color:#D6BBFB ;
+ }
+ #newsolutions {
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    color: white;
+    padding: 3px;
+ } 
+ #footerlisttwo {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 94px;
+    margin-top: 227px;
+ }
+ #footerlisttwo ul {
+    padding-top: 49px;
+ }
+ #footerlisttwo li {
+    list-style: none;
+    color: white;
+    padding-top: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+ }
+ #footerlistthree {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 134px;
+    margin-top: 227px;
+ }
+ #footerlistthree ul {
+    padding-top: 49px;
+ }
+ #footerlistthree li {
+    list-style: none;
+    color: white;
+    padding-top: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+ }
+ /*  */
+ #footerlistfour {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 134px;
+    margin-top: 227px;
+ }
+ #footerlistfour ul {
+    padding-top: 49px;
+ }
+ #footerlistfour li {
+    list-style: none;
+    color: white;
+    padding-top: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+ }
+/*  */
+#footerlistfive {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 134px;
+    margin-top: 227px;
+ }
+ #footerlistfive ul {
+    padding-top: 49px;
+ }
+ #footerlistfive li {
+    list-style: none;
+    color: white;
+    padding-top: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+ }
+/*  */
+#footerlistsix {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 134px;
+    margin-top: 227px;
+ }
+ #footerlistsix ul {
+    padding-top: 49px;
+ }
+ #footerlistsix li {
+    list-style: none;
+    color: white;
+    padding-top: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+ }
+ /*  */
+ 
+#footerSection{
+    padding-bottom: 60px;
+}
+#footerEnd{
+    padding-bottom: 30px;
+    width: 65%;
+    border-top: solid 1px #6D5F8B;
+    padding-top: 50px;
+    margin-left: 350px;
+}
+
+#footerEnd span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    float: right;
+    color: #D6BBFB;
+}
